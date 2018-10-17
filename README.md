@@ -1,6 +1,22 @@
 # bible.sh
 Command Line Interface (CLI) for biblegateway.com
 This is a simple bash script for quick scripture verse lookups. It aims to be simple yet readable. If you find any bugs please open an issue.
+
+You can install the by moving the script to ~/bin/ or downloading it straight there:
+```
+wget -O ~/bin/bible.sh https://github.com/myxomatosis/bible.sh/raw/master/bible.sh
+```
+## Dependencies
+html2text
+
+To install on Debian based distros:
+```
+sudo apt install html2text
+```
+To install on RedHat based distros:
+```
+sudo yum install html2text #Requires the epel repo
+```
 ## Examples
 ### Look up a verse from the command line:
 ```
