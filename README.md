@@ -6,6 +6,10 @@ You can install the by moving the script to ~/bin/ or downloading it straight th
 ```
 wget -O ~/bin/bible.sh https://github.com/myxomatosis/bible.sh/raw/master/bible.sh
 ```
+Permissions need to allow it to execute:
+```
+chmod +x ~/bin/bible.sh
+```
 ## Dependencies
 html2text
 
